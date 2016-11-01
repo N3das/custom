@@ -1,4 +1,0 @@
-{
-    "lithuanian": "https://rawgit.com/basicBot/source/master/lang/lt.json",
-    "english": "https://rawgit.com/basicBot/source/master/lang/en.json"
-}
