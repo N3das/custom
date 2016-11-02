@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://raw.githubusercontent.com/Gabr1ele/custom/master/lang/langIndex.json.txt", function (json) {
+        $.get("https://raw.githubusercontent.com/Gabr1ele/custom/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
