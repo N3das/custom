@@ -110,7 +110,56 @@
         BANNED: "https://raw.githubusercontent.com/Gabr1ele/custom/master/blacklists/BANNEDlist.json"
       }
     }));
-
+{
+    "room":                     "Otaku Net",
+    "author":                   "Mr_Ben",
+    "icon":                     "http://i.imgur.com/2W5yh5k.png",
+    "css":                      "https://dl.dropboxusercontent.com/s/dxgd88vvz7pwz3l/plugcustomcsstheme2.css",
+    "rules": {
+        "allowAutorespond":     true,
+        "allowAutowoot":        true,
+        "allowAutojoin":        false,
+        "allowAutograb":        true,
+        "allowSmartVote":       true,
+        "allowEmotes":          true,
+        "allowShowingMehs":     true,
+        "forceSmartVote":       false
+    },
+    "ccc": {
+        "admin":                "#43BFC7",
+        "ambassador":           "#4CC417",
+        "host":                 "#E9FFFF",
+        "cohost":               "#E9FFFF",
+        "manager":              "#82CAFF",
+        "bouncer":              "#38ACEC",
+        "rdj":                  "#2B65EC",
+        "subscriber":           "#FFFF00",
+        "friend":               "#null",
+        "user":                 "#98AFC7"
+    },
+    "images": {
+        "background":           "http://i.imgur.com/GwcefEN.jpg",
+        "playback":             null,
+        "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+        "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
+        "host":                 "https://dl.dropboxusercontent.com/s/t70qvqutc7043rd/SM-Host.png?dl=0",
+        "cohost":               "https://dl.dropboxusercontent.com/s/0r4ke3rrbghyhy6/SM-Cohost.png?dl=0",
+        "manager":              "https://dl.dropboxusercontent.com/s/w0b2u64yi1sa6xq/SM-Manager.png?dl=0",
+        "bouncer":              "https://dl.dropboxusercontent.com/s/cr6oqo3gkzluej7/SM-Bouncer.png?dl=0",
+        "rdj":                  "https://dl.dropboxusercontent.com/s/u6io4evqkij2gth/SM-Resdj.png?dl=0",
+        "subscriber":           "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
+    },
+    "autocomplete": [],
+    "emotes": {
+        "custom_test": "https://cdn.radiant.dj/rcs/icons/test_custom.png",
+        "reav": "http://i.imgur.com/J7J8nPt.gif",
+        "otakuN": "http://i.imgur.com/axZcXdQ.png",
+        "havii": "http://i.imgur.com/9wVLTYk.jpg",
+        "izu": "http://i.imgur.com/BE77Gx3.gif",
+        "weeb": "http://i.imgur.com/7C2zXsr.png"
+ 
+    }
+}
     // Start the bot and extend it when it has loaded.
     $.getScript("https://raw.githubusercontent.com/Gabr1ele/custom/master/patriotas.json", extend);
 
